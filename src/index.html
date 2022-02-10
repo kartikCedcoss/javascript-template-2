@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="maindiv">
+        <div class="div1">
+            <input type="text" class="inputdiv1" id="input1">
+        </div>
+        <div class="div2">
+
+              <input type="radio" id="h2m" name="conversion" value="hours to min">
+              <label for="h2m" >hours to mins</label><br>
+              <input type="radio" id="h2s" name="conversion" value="hours to">
+              <label for="h2s">hours to seconds</label><br>
+             
+
+        </div>
+        <div>
+            <p id="result1" > </p>
+        </div>
+        <div class="div4">
+            <button class="btn" onclick="myConvert()">
+                Convert
+            </button>
+        </div>
+    </div>
+
+    <script src="myscript.js"></script>
 </body>
+
 </html>
